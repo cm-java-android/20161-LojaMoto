@@ -4,5 +4,8 @@
     <string name="app_name">Loja de Moto</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="btn_info">Mais informações</string>
+    <string name="contato">cm.java.android@gmail.com</string>
+    <string name="telefone">(21) 1234 5678</string>
 
 </resources>

@@ -1,7 +1,13 @@
 package br.java.android.lojademoto;
 
-public class Moto {
+import java.io.Serializable;
 
+public class Moto implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private long id;
 	private String modelo;
 	private int cilindradas;
@@ -13,6 +19,7 @@ public class Moto {
 	private String bairro;
 	private String cidade;
 	private String uf;
+	private String contato;
 	
 	@Override
 	public String toString() {
@@ -84,6 +91,14 @@ public class Moto {
 	}
 	public void setUf(String uf) {
 		this.uf = uf;
+	}
+
+	public String getContato() {
+		return contato;
+	}
+
+	public void setContato(String contato) {
+		this.contato = contato;
 	}
 	
 	
